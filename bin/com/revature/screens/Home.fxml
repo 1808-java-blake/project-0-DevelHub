@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="291.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.revature.screens.HomeController">
+   <children>
+      <Button layoutX="14.0" layoutY="71.0" mnemonicParsing="false" onAction="#deposit" text="Deposit" />
+      <Button layoutX="290.0" layoutY="71.0" mnemonicParsing="false" onAction="#withdraw" text="Withdraw" />
+      <Button layoutX="196.0" layoutY="14.0" mnemonicParsing="false" onAction="#balance" text="Balance" />
+      <Button layoutX="260.0" layoutY="14.0" mnemonicParsing="false" onAction="#history" text="History" />
+      <Button layoutX="162.0" layoutY="71.0" mnemonicParsing="false" onAction="#wire" text="Wire" />
+      <Button layoutX="319.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" text="Logout" />
+      <Label fx:id="amountLabel" layoutX="14.0" layoutY="146.0" />
+      <TextField fx:id="amountField" layoutX="214.0" layoutY="142.0" promptText="\$" visible="false" />
+      <TextField fx:id="accountField" layoutX="14.0" layoutY="190.0" promptText="Account Number" visible="false" />
+      <TextField fx:id="routingField" layoutX="210.0" layoutY="190.0" promptText="Routing Number" visible="false" />
+      <Button fx:id="submitButton" layoutX="307.0" layoutY="245.0" mnemonicParsing="false" onAction="#submit" text="Submit" visible="false" />
+      <Label fx:id="balanceLabel" layoutX="14.0" layoutY="17.0" />
+   </children>
+</AnchorPane>

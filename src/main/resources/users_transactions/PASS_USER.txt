@@ -1,0 +1,23 @@
+	Account Number:	6880154503				Routing Number:	171003271
+
+
+
+
+
+
+|	Transaction No.		|	Method		|	Type		|	Amount		|	Date    		|
+-----------------------------------------------------------------------------------------------------------------------------------------
+|	284283726024		|	Physical	|	Deposit		|	$30.0		|Wed Aug 15 21:30:14 EDT 2018|
+|	  XXXXXX3346		|	Wire		|	Withdraw	|	$21.0		|Wed Aug 15 21:30:59 EDT 2018|
+|	142207701683		|	Physical	|	Deposit		|	$11.0		|Wed Aug 15 21:33:24 EDT 2018|
+|	106602706308		|	Physical	|	Withdraw		|	$20.0		|Wed Aug 15 21:35:00 EDT 2018|
+|	  XXXXXX3346		|	Wire		|	Deposit		|	$30.0		|Wed Aug 15 21:37:36 EDT 2018|
+|	  XXXXXX3346		|	Wire		|	Withdraw	|	$20.0		|Wed Aug 15 21:39:14 EDT 2018|
+
+
+
+
+
+
+
+															Balance: 10.0

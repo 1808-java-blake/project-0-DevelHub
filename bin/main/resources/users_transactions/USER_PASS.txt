@@ -1,0 +1,23 @@
+	Account Number:	7677673346				Routing Number:	171005834
+
+
+
+
+
+
+|	Transaction No.		|	Method		|	Type		|	Amount		|	Date    		|
+-----------------------------------------------------------------------------------------------------------------------------------------
+|	  XXXXXX4503		|	Wire		|	Deposit		|	$21.0		|Wed Aug 15 21:30:59 EDT 2018|
+|	642236368606		|	Physical	|	Deposit		|	$9.0		|Wed Aug 15 21:32:45 EDT 2018|
+|	  XXXXXX4503		|	Wire		|	Withdraw	|	$30.0		|Wed Aug 15 21:34:43 EDT 2018|
+|	308140552717		|	Physical	|	Deposit		|	$70.0		|Wed Aug 15 21:36:27 EDT 2018|
+|	  XXXXXX4503		|	Wire		|	Withdraw	|	$30.0		|Wed Aug 15 21:37:36 EDT 2018|
+|	  XXXXXX4503		|	Wire		|	Deposit		|	$20.0		|Wed Aug 15 21:39:14 EDT 2018|
+
+
+
+
+
+
+
+															Balance: 60.0
