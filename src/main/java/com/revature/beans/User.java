@@ -4,11 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class User implements Serializable {
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+public class User{
 	private int id;
 	private String username;
 	private String password;
@@ -203,9 +199,8 @@ public class User implements Serializable {
 
 	@Override
 	public String toString() {
-		return "\t\t\t\t\tFirst Name: \t" + firstName + "\t\t\tLast Name: \t" + lastName + "\t\t\tUsername: \t"
-				+ username + "\t\t\tPassword: \t" + password + "\t\t\tAge: \t" + age + "\t\t\tBalance: \t" + "$"
-				+ balance;
+		return "\tFirst Name: \t" + firstName + "\t\t|\tLast Name: \t" + lastName + "\t\t|\tUsername: \t"
+				+ username + "\t\t|\tEmail: \t" + email + "\t\t|\tAge: \t" + age + "\t\t|\tBalance: \t" 
+				+ balance + "\t\t|\tActive: \t" + enable;
 	}
-
 }

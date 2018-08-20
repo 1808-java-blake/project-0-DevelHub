@@ -1,0 +1,26 @@
+set schema 'bank_app';
+
+CREATE TABLE user_info(
+	user_id SERIAL PRIMARY KEY,
+	firstname VARCHAR(20) NOT NULL,
+	lastname VARCHAR(20) NOT NULL,
+	username VARCHAR(20) UNIQUE,
+	pass VARCHAR(20),
+	age INTEGER CHECK (age >= 18),
+	email VARCHAR(50) NOT NULL,
+	active BOOLEAN DEFAULT FALSE
+);
+CREATE TABLE user_accounts(
+	account_id SERIAL PRIMARY KEY,
+	user_id INTEGER REFERENCES user_info(user_id),
+	account_number NUMERIC(10),
+	routing_number NUMERIC(9),
+	account_type VARCHAR(10),
+	balance NUMERIC(10,2) DEFAULT 0.00
+);
+CREATE TABLE account_transactions(
+	transaction_id SERIAL PRIMARY KEY,
+	account_id INTEGER REFERENCES user_accounts(account_id),
+	method_of VARCHAR(10),
+	amount NUMERIC(10,2)
+)

@@ -1,0 +1,28 @@
+	Account Number:	6610343177				Routing Number:	171005630
+
+
+
+
+
+
+
+|	Transaction No.		|	Method		|	Type		|	Amount		|	Date    		|
+-----------------------------------------------------------------------------------------------------------------------------------------
+|	XXXXXX3177		|	Wire		|	Deposit		|	$1.0		|Mon Aug 20 11:15:11 EDT 2018|
+|	XXXXXX3177		|	Wire		|	Withdraw	|	$1.0		|Mon Aug 20 11:15:11 EDT 2018|
+|	XXXXXX3177		|	Direct		|	Deposit		|	$1.0		|Mon Aug 20 11:20:01 EDT 2018|
+|	XXXXXX3177		|	Wire		|	Deposit		|	$1.0		|Mon Aug 20 11:20:01 EDT 2018|
+|	XXXXXX3177		|	Wire		|	Withdraw	|	$1.0		|Mon Aug 20 11:20:01 EDT 2018|
+|	XXXXXX3177		|	Direct		|	Deposit		|	$1.0		|Mon Aug 20 11:32:32 EDT 2018|
+|	XXXXXX3177		|	Wire		|	Deposit		|	$1.0		|Mon Aug 20 11:32:32 EDT 2018|
+|	XXXXXX3177		|	Wire		|	Withdraw	|	$1.0		|Mon Aug 20 11:32:32 EDT 2018|
+|	XXXXXX3177		|	Wire		|	Deposit		|	$1.0		|Mon Aug 20 11:42:55 EDT 2018|
+|	XXXXXX3177		|	Wire		|	Withdraw	|	$1.0		|Mon Aug 20 11:42:55 EDT 2018|
+
+
+
+
+
+
+
+															Balance: 1.0

@@ -13,6 +13,7 @@
 |	308140552717		|	Physical	|	Deposit		|	$70.0		|Wed Aug 15 21:36:27 EDT 2018|
 |	  XXXXXX4503		|	Wire		|	Withdraw	|	$30.0		|Wed Aug 15 21:37:36 EDT 2018|
 |	  XXXXXX4503		|	Wire		|	Deposit		|	$20.0		|Wed Aug 15 21:39:14 EDT 2018|
+|	  XXXXXX4503		|	Wire		|	Deposit		|	$10.0		|Thu Aug 16 09:21:00 EDT 2018|
 
 
 
@@ -20,4 +21,4 @@
 
 
 
-															Balance: 60.0
+															Balance: 70.0

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="406.0" prefWidth="403.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.revature.screens.RegisterController">
+   <children>
+      <TextField fx:id="firstNameField" layoutX="158.0" layoutY="35.0" />
+      <TextField fx:id="lastNameField" layoutX="158.0" layoutY="90.0" />
+      <Label layoutX="28.0" layoutY="151.0" text="Username" />
+      <Label fx:id="pass" layoutX="30.0" layoutY="213.0" text="Password" />
+      <TextField fx:id="usernameField" layoutX="158.0" layoutY="147.0" />
+      <Label layoutX="26.0" layoutY="39.0" text="First Name" />
+      <Label layoutX="27.0" layoutY="94.0" text="Last Name" />
+      <Label layoutX="40.0" layoutY="327.0" text="Age" />
+      <Label fx:id="errorLabel" layoutX="158.0" layoutY="8.0" />
+      <Label layoutX="30.0" layoutY="269.0" text="Confirm" />
+      <PasswordField fx:id="passwordField" layoutX="158.0" layoutY="209.0" />
+      <PasswordField fx:id="confirmPasswordField" layoutX="158.0" layoutY="265.0" />
+      <TextField fx:id="ageField" layoutX="158.0" layoutY="323.0" />
+      <TextField fx:id="emailField" layoutX="158.0" layoutY="376.0" />
+      <Button layoutX="14.0" layoutY="443.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <Button layoutX="293.0" layoutY="443.0" mnemonicParsing="false" onAction="#register" text="Register" />
+      <Label layoutX="158.0" layoutY="8.0" />
+      <Label layoutX="37.0" layoutY="380.0" text="Email" />
+   </children>
+</AnchorPane>

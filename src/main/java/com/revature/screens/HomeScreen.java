@@ -9,9 +9,11 @@ import javafx.stage.Stage;
 
 public class HomeScreen extends Application implements Screen {
 	private static final HomeScreen hs = new HomeScreen();
+	private User currentUser;
 	private static Stage home;
 
 	public HomeScreen(User currentUser) {
+		this.currentUser = currentUser;
 		home = new Stage();
 		start(home);
 	}
@@ -32,7 +34,7 @@ public class HomeScreen extends Application implements Screen {
 			Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("\\com\\revature\\screens\\Home.fxml"));
 			Scene scene = new Scene(root,400,400);
 			home.setScene(scene);
-			home.setTitle("Home");
+			home.setTitle("Welcome " + currentUser.getFirstName() + " " + currentUser.getLastName() + "!");
 			home.show();
 		} catch(Exception e) {
 			e.printStackTrace();

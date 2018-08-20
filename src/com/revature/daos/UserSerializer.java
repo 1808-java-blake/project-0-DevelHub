@@ -160,6 +160,7 @@ public class UserSerializer implements UserDao {
 	
 	@Override
 	public double getBalance() {
+		findByUsernameAndPassword(currentUser.getUsername(), currentUser.getPassword());
 		return currentUser.getBalance();		
 	}
 
